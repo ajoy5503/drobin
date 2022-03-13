@@ -1,0 +1,64 @@
+/* :: Chat Area CSS */
+
+.conversation-list {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.conversation-list li {
+    margin-bottom: 20px;
+}
+
+.conversation-list .chat-avatar {
+    float: left;
+    text-align: center;
+    width: 42px;
+}
+
+.conversation-list .chat-avatar img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.conversation-list .chat-avatar i {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.conversation-list .ctext-wrap {
+    background: #f1f3fa;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 12px;
+    position: relative;
+}
+
+.conversation-list .odd .ctext-wrap::after {
+    border-color: transparent;
+    border-left-color: #fef5e4;
+    border-top-color: #fef5e4;
+    left: 99% !important;
+}
+.conversation-list .ctext-wrap::after {
+	right: 99%;
+	top: 0;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-top-color: #f1f3fa;
+	border-width: 6px;
+	margin-right: -1px;
+	border-right-color: #f1f3fa;
+}
+.conversation-list .conversation-text {
+	float: left;
+	font-size: 12px;
+	margin-left: 12px;
+	width: 70%;
+}
+.dropdown a {
+	color: #333;
+}

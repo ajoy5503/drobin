@@ -1,0 +1,17 @@
+/* :: File Manager CSS */
+
+.file-manager-content {
+    .file-manager-thumb {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        @include transition-duration(500ms);
+    }
+
+    &:hover,
+    &:focus {
+        .file-manager-thumb {
+            @include transform(translateX(-6px));
+        }
+    }
+}

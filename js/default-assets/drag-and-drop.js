@@ -1,0 +1,1 @@
+!function(a){"use strict";a(function(){dragula([a("#dragula-left")[0],a("#dragula-right")[0]],{revertOnSpill:!0}),dragula([a("#dragula-left-copy")[0],a("#dragula-right-copy")[0]],{copy:!0}),dragula([a("#dragula-left-drag-handles")[0],a("#dragula-right-drag-handles")[0]],{moves:function(a,r,l){return l.classList.contains("handle")}})})}(jQuery);

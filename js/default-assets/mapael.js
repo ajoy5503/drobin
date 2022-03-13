@@ -1,0 +1,1 @@
+$(function(){"use strict";$(".mapael-container").length&&$(".mapael-container").mapael({map:{name:"world_countries"}})});

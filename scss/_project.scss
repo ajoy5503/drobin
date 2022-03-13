@@ -1,0 +1,52 @@
+/* :: Project Area CSS */
+
+.progress.progress-sm {
+    height: 6px;
+}
+
+.project-details-area {
+    .avatar-sm {
+        height: 3rem;
+        width: 3rem;
+
+        .avatar-title {
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #727cf5;
+            color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            font-weight: 600;
+            height: 100%;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+
+}
+
+.avatar-title {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #727cf5;
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-weight: 600;
+	height: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+}
+.avatar-sm {
+	height: 3rem;
+	width: 3rem;
+}

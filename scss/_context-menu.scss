@@ -1,0 +1,32 @@
+/* :: Context Menu CSS */
+
+.context-menu-content {
+    padding: 10px 20px;
+    color: $white-color;
+    background-color: $primary-color;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+div {
+    &.valTip {
+        li {
+            list-style: none;
+            padding: 3px;
+            padding-right: 20px;
+            cursor: pointer;
+            position: relative;
+            color: $danger-color;
+            font-weight: bold;
+            border: none;
+        }
+    }
+}
+
+.iw-cm-menu li {
+    text-transform: capitalize;
+}
+
+.iw-cm-arrow-right {
+    top: 40%;
+}

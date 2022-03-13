@@ -1,0 +1,1 @@
+!function(t){"use strict";t(".has-spinner").click(function(){var n=t(this);t(n).buttonLoader("start"),setTimeout(function(){t(n).buttonLoader("stop")},3e3)})}(jQuery);

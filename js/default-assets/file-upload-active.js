@@ -1,0 +1,1 @@
+!function(e){"use strict";new FileUploadWithPreview("myFirstImage"),new FileUploadWithPreview("mySecondImage")}(jQuery);

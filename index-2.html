@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Drobin - Responsive Admin Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.png">
+
+    <!-- These plugins only need for the run this page -->
+    <link rel="stylesheet" href="css/c3.min.css">
+    <link rel="stylesheet" href="css/default-assets/morris.css">
+    <link rel="stylesheet" href="css/default-assets/new/chartist.min.css">
+    <link rel="stylesheet" href="css/default-assets/new/chartist-custom.css">
+
+    <!-- Master Stylesheet [If you remove this CSS file, your file will be broken undoubtedly.] -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+
+    <!-- ======================================
+    ******* Page Wrapper Area Start **********
+    ======================================= -->
+    <div class="droza-page-wrapper horizontal-menu">
+        <!-- Page Content -->
+        <div class="droza-page-content">
+            <!-- Top Header Area -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 ">
+                        <header class="top-header-area clearfix d-flex align-items-center justify-content-between">
+                            <div class="left-side-content-area d-flex align-items-center">
+
+                                <!-- Desktop Logo -->
+                                <div class="droza-logo mr-3">
+                                    <a href="index.html"><img class="desktop-logo" src="img/core-img/logo.png" alt="Desktop Logo"></a>
+                                </div>
+
+                                <!-- Left Side Nav -->
+                                <ul class="left-side-navbar d-flex align-items-center">
+                                    <li class="nav-item dropdown">
+                                        <button class="btn dropdown-toggle border p-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions <i class="fa fa-angle-down"></i></button>
+                                        <!-- Dropdown Menu -->
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action 1</a>
+                                            <a class="dropdown-item" href="#">Action 2</a>
+                                            <a class="dropdown-item" href="#">Another Action</a>
+                                            <a class="dropdown-item" href="#">Something Else Here</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="right-side-navbar d-flex align-items-center justify-content-end">
+                                <!-- Top Bar Nav -->
+                                <ul class="d-flex align-items-center">
+                                    <li class="nav-item dropdown">
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ti-search"></i></button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <!-- Top Search Bar -->
+                                            <div class="top-search-bar">
+                                                <form action="#" method="get">
+                                                    <input type="search" name="search" class="from-control top-search mb-0" placeholder="Type your keywords...">
+                                                    <button type="submit"><i class="ti-search"></i></button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="ti-bell" aria-hidden="true"></i> <span class="active-status"></span></button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <!-- Top Notifications Area -->
+                                            <div class="top-notifications-area">
+                                                <!-- Heading -->
+                                                <div class="notifications-heading">
+                                                    <div class="heading-title">
+                                                        <h6>Notifications</h6>
+                                                    </div>
+                                                    <span>5 New</span>
+                                                </div>
+
+                                                <div class="notifications-box" id="notificationsBox">
+                                                    <a href="#" class="dropdown-item"><i class="ti-face-smile bg-success"></i><span>We've got something for you!</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-bell bg-danger"></i><span>Domain names expiring on Tuesday</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-check"></i><span>Your commissions has been sent</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-heart bg-success"></i><span>You sold an item!</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-bolt bg-warning"></i><span>Security alert for your linked Google account</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-face-smile bg-success"></i><span>We've got something for you!</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-bell bg-danger"></i><span>Domain names expiring on Tuesday</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-check"></i><span>Your commissions has been sent</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-heart bg-success"></i><span>You sold an item!</span></a>
+                                                    <a href="#" class="dropdown-item"><i class="ti-bolt bg-warning"></i><span>Security alert for your linked Google account</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/member-img/women.jpg" alt=""></button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <!-- User Profile Area -->
+                                            <div class="user-profile-area">
+                                                <div class="user-profile-heading">
+                                                    <!-- Thumb -->
+                                                    <div class="profile-thumbnail">
+                                                        <img src="img/member-img/women.jpg" alt="">
+                                                    </div>
+                                                    <!-- Profile Text -->
+                                                    <div class="profile-text">
+                                                        <h6>Joho Deo</h6>
+                                                        <span>jhon@example.com</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="dropdown-item"><i class="ti-user text-default" aria-hidden="true"></i> My profile</a>
+                                                <a href="#" class="dropdown-item"><i class="ti-email text-success" aria-hidden="true"></i> Messages</a>
+                                                <a href="#" class="dropdown-item"><i class="ti-settings text-default" aria-hidden="true"></i> Account settings</a>
+                                                <a href="#" class="dropdown-item"><i class="ti-heart text-purple" aria-hidden="true"></i> Support</a>
+                                                <a href="#" class="dropdown-item"><i class="ti-unlink text-warning" aria-hidden="true"></i> Sign-out</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Horizontal Menu -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="horizontal-menu clearfix">
+                            <div class="classy-nav-container breakpoint-off">
+                                <nav class="classy-navbar justify-content-between" id="horizontalNav">
+
+                                    <!-- Logo -->
+                                    <a href="index.html" class="nav-brand"><img src="img/core-img/small-logo.png" alt="Mobile Logo"></a>
+
+                                    <!-- Navbar Toggler -->
+                                    <div class="classy-navbar-toggler">
+                                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                                    </div>
+
+                                    <!-- Menu -->
+                                    <div class="classy-menu">
+                                        <!-- close btn -->
+                                        <div class="classycloseIcon">
+                                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                        </div>
+
+                                        <!-- Nav Start -->
+                                        <div class="classynav">
+                                            <ul>
+                                                <li><a href="#"><i class="ti-home"></i> Dashboard</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="index.html">- Ecommerce</a></li>
+                                                        <li><a href="index-2.html">- CRM</a></li>
+                                                        <li><a href="index-3.html">- Projects</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#"><i class="ti-package"></i> Apps</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="calendar.html">- Calendar</a></li>
+                                                        <li><a href="widgets.html">- Widget</a></li>
+                                                        <li><a href="project-list.html">- Project List</a></li>
+                                                        <li><a href="project-details.html">- Project Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#"><i class="ti-bar-chart-alt"></i> Charts</a>
+                                                    <div class="megamenu">
+                                                        <ul class="single-mega cn-col-3">
+                                                            <li><a href="chart-brite.html">- Brite Chart</a></li>
+                                                            <li><a href="apex-chart-area.html">- Apex Area Chart</a></li>
+                                                            <li><a href="apex-chart-line.html">- Apex Line Chart</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-3">
+                                                            <li><a href="chart-js.html">- Chart Js</a></li>
+                                                            <li><a href="c3-api-chart.html">- C3 Api Chart</a></li>
+                                                            <li><a href="e-chart-js.html">- Echart</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-3">
+                                                            <li><a href="c3-charts.html">- C3 Chart</a></li>
+                                                            <li><a href="echart-funnel-radar.html">- Echart Radar</a></li>
+                                                            <li><a href="chart-sparkline.html">- Sparkline</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#"><i class="ti-notepad"></i> Pages</a>
+                                                    <div class="megamenu">
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Ecommerce</li>
+                                                            <li><a href="product.html">- Products</a></li>
+                                                            <li><a href="product-details.html">- Products Details</a></li>
+                                                            <li><a href="order.html">- Orders</a></li>
+                                                            <li><a href="order-details.html">- Orders Details</a></li>
+                                                            <li><a href="customar.html">- Customers</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Ecommerce</li>
+                                                            <li><a href="cart.html">- Shopping Cart</a></li>
+                                                            <li><a href="checkout.html">- Checkout</a></li>
+                                                            <li><a href="seller.html">- Sellers</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Mailbox</li>
+                                                            <li><a href="inbox.html">- Inbox</a></li>
+                                                            <li><a href="email-view.html">- E-mail View</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">User Pages</li>
+                                                            <li><a href="login.html">- Login</a></li>
+                                                            <li><a href="login-2.html">- Login-2</a></li>
+                                                            <li><a href="register.html">- Register</a></li>
+                                                            <li><a href="register-2.html">- Register-2</a></li>
+                                                            <li><a href="lock-screen.html">- Lock Screen</a></li>
+                                                            <li><a href="forget-password.html">- Forget Password</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+
+                                                <li><a href="#"><i class="ti-palette"></i>Elements</a>
+                                                    <div class="megamenu">
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Basic Elements</li>
+                                                            <li><a href="avatar.html">- Avatar</a></li>
+                                                            <li><a href="buttons.html">- Button</a></li>
+                                                            <li><a href="badges.html">- Badges</a></li>
+                                                            <li><a href="card.html">- Card</a></li>
+                                                            <li><a href="card-draggable.html">- Card Draggable</a></li>
+                                                            <li><a href="collapse.html">- Collapse</a></li>
+                                                            <li><a href="tab.html">- Tab</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Basic Elements</li>
+                                                            <li><a href="general.html">- General</a></li>
+                                                            <li><a href="progressbar.html">- Progressbar</a></li>
+                                                            <li><a href="pagination.html">- Pagination</a></li>
+                                                            <li><a href="notifications.html">- Notification</a></li>
+                                                            <li><a href="dropdown.html">- Dropdown</a></li>
+                                                            <li><a href="call-to-action.html">- Call to action</a></li>
+                                                            <li><a href="typography.html">- Typography</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Advanced Elements</li>
+                                                            <li><a href="blank.html">- Start Page</a></li>
+                                                            <li><a href="profile.html">- Profile</a></li>
+                                                            <li><a href="taskboard.html">- Taskboard</a></li>
+                                                            <li><a href="range-slider.html">- Range Slider</a></li>
+                                                            <li><a href="slider.html">- Slider</a></li>
+                                                            <li><a href="timeline.html">- Timeline</a></li>
+                                                            <li><a href="timeline-2.html">- Timeline-2</a></li>
+                                                            <li><a href="modals.html">- Modals</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Advanced Elements</li>
+                                                            <li><a href="toastr.html">- Toastr</a></li>
+                                                            <li><a href="preloader.html">- Preloader</a></li>
+                                                            <li><a href="sweet-alert.html">- Sweet Alert</a></li>
+                                                            <li><a href="team.html">- Team</a></li>
+                                                            <li><a href="team-board.html">- Team Board</a></li>
+                                                            <li><a href="nestable-list.html">- Nestable list</a></li>
+                                                            <li><a href="tree-view.html">- Tree View</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#"><i class="ti-world"></i> Map</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="maple-map.html">- Maple map</a></li>
+                                                        <li><a href="google-map.html">- Google Map</a></li>
+                                                        <li><a href="vector-map.html">- Vector Map</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#"><i class="ti-gallery"></i> Data</a>
+                                                    <div class="megamenu">
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Tables</li>
+                                                            <li><a href="data-table.html">- Data Table</a></li>
+                                                            <li><a href="basic-table.html">- Basic Table</a></li>
+                                                            <li><a href="bootstrap-table.html">- Bootstrap Table</a></li>
+                                                            <li><a href="table-layout-colourd.html">- Table layout color</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Tables</li>
+                                                            <li><a href="table-responsive.html">- Table Responsive</a></li>
+                                                            <li><a href="price-table.html">- Price Table</a></li>
+                                                            <li><a href="edit-table.html">- Edit Table</a></li>
+                                                            <li><a href="js-grid-table.html">- Js Grid</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">- Forms</li>
+                                                            <li><a href="basic-form.html">- Basic</a></li>
+                                                            <li><a href="form-wizard.html">- Wizard</a></li>
+                                                            <li><a href="form-validation.html">- Validation</a></li>
+                                                            <li><a href="rating.html">- Rating</a></li>
+                                                            <li><a href="form-bootstrap-touchspin.html">- Bootstrap Touchspin</a></li>
+                                                            <li><a href="form-horizontal.html">- Horizontal</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">Forms</li>
+                                                            <li><a href="file-upload.html">- File Upload</a></li>
+                                                            <li><a href="form-input.html">- Form Input</a></li>
+                                                            <li><a href="form-input-mask.html">- Input Mask</a></li>
+                                                            <li><a href="form-row-separator.html">- Row Separator</a></li>
+                                                            <li><a href="form-picker.html">- Form Picker</a></li>
+                                                            <li><a href="layout-elements.html">- Layout Elements</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">General</li>
+                                                            <li><a href="animation.html">- Animation</a></li>
+                                                            <li><a href="gallery.html">- Gallery</a></li>
+                                                            <li><a href="gallery-2.html">- Gallery 2</a></li>
+                                                            <li><a href="summernote.html">- Summernote</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">General</li>
+                                                            <li><a href="video.html">- Video</a></li>
+                                                            <li><a href="vote-list.html">- Vote list</a></li>
+                                                            <li><a href="session-timeout.html">- Session timeout</a></li>
+                                                            <li><a href="search-result.html">- Search Result</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">General</li>
+                                                            <li><a href="invoice.html">- Invoice</a></li>
+                                                            <li><a href="file-manager.html">- File Manager</a></li>
+                                                            <li><a href="code-editors.html">- Code Editor</a></li>
+                                                            <li><a href="contact.html">- Contact</a></li>
+                                                        </ul>
+                                                        <ul class="single-mega cn-col-4">
+                                                            <li class="title">General</li>
+                                                            <li><a href="coming-soon.html">- Coming Soon</a></li>
+                                                            <li><a href="404.html">- 404</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#"><i class="ti-mouse-alt"></i> Icon</a>
+                                                    <ul class="dropdown">
+                                                        <li><a href="flag-icon.html">- Flag</a></li>
+                                                        <li><a href="elegant-icons.html">- Elegant</a></li>
+                                                        <li><a href="et-line-icons.html">- Et-line</a></li>
+                                                        <li><a href="font-awesome.html">- Font-awsome</a></li>
+                                                        <li><a href="matarial-icons.html">- Materialize</a></li>
+                                                        <li><a href="pe-7-stroke.html">- Pe-7 Stroke</a></li>
+                                                        <li><a href="themify-icons.html">- Themify</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- Nav End -->
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="card widget-flat">
+                                <div class="card-body">
+                                    <div class="float-right">
+                                        <i class="ti-face-smile widget-icon widget-icon"></i>
+                                    </div>
+                                    <h5 class="text-muted font-weight-normal mt-0" title="Number of Customers">Customers</h5>
+                                    <h3 class="mt-3 mb-3">36,254</h3>
+                                    <p class="mb-0 text-muted">
+                                        <span class="text-success mr-2"><i class="mdi mdi-arrow-up-bold"></i> 5.27%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end col-->
+
+                        <div class="col-lg-3">
+                            <div class="card widget-flat">
+                                <div class="card-body">
+                                    <div class="float-right">
+                                        <i class="ti-shopping-cart-full widget-icon"></i>
+                                    </div>
+                                    <h5 class="text-muted font-weight-normal mt-0" title="Number of Orders">Orders</h5>
+                                    <h3 class="mt-3 mb-3">5,543</h3>
+                                    <p class="mb-0 text-muted">
+                                        <span class="text-danger mr-2"><i class="mdi mdi-arrow-down-bold"></i> 1.08%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end col-->
+
+                        <div class="col-lg-3">
+                            <div class="card widget-flat">
+                                <div class="card-body">
+                                    <div class="float-right">
+                                        <i class="ti-money widget-icon"></i>
+                                    </div>
+                                    <h5 class="text-muted font-weight-normal mt-0" title="Average Revenue">Revenue</h5>
+                                    <h3 class="mt-3 mb-3">$6,254</h3>
+                                    <p class="mb-0 text-muted">
+                                        <span class="text-danger mr-2"><i class="mdi mdi-arrow-down-bold"></i> 7.00%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end col-->
+
+                        <div class="col-lg-3">
+                            <div class="card widget-flat">
+                                <div class="card-body">
+                                    <div class="float-right">
+                                        <i class="ti-stats-up widget-icon"></i>
+                                    </div>
+                                    <h5 class="text-muted font-weight-normal mt-0" title="Growth">Growth</h5>
+                                    <h3 class="mt-3 mb-3">+ 30.56%</h3>
+                                    <p class="mb-0 text-muted">
+                                        <span class="text-success mr-2"><i class="mdi mdi-arrow-up-bold"></i> 4.87%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div> <!-- end col-->
+                    </div> <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-1">Campaigns</h4>
+
+                                    <div class="ct-bar-chart" style="height: 400px;"></div>
+
+
+                                    <div class="row text-center mt-2">
+                                        <div class="col-md-4">
+                                            <i class="ti-hand-point-right widget-icon rounded-circle bg-light-lighten text-muted"></i>
+                                            <h3 class="font-weight-normal mt-3">
+                                                <span>6,510</span>
+                                            </h3>
+                                            <p class="text-muted mb-0 mb-2">Total Sent</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <i class="ti-world widget-icon rounded-circle bg-light-lighten text-muted"></i>
+                                            <h3 class="font-weight-normal mt-3">
+                                                <span>3,487</span>
+                                            </h3>
+                                            <p class="text-muted mb-0 mb-2">Reached</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <i class="ti-printer widget-icon rounded-circle bg-light-lighten text-muted"></i>
+                                            <h3 class="font-weight-normal mt-3">
+                                                <span>1,568</span>
+                                            </h3>
+                                            <p class="text-muted mb-0 mb-2">Opened</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end card body-->
+                            </div>
+                            <!-- end card -->
+                        </div>
+
+
+                        <div class="col-xl-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Revenue</h4>
+
+                                    <div class="chart-content-bg">
+                                        <div class="row text-center">
+                                            <div class="col-md-6">
+                                                <p class="text-muted mb-0 mt-3">Current Month</p>
+                                                <h2 class="font-weight-normal mb-3">
+                                                    <span>$42,025</span>
+                                                </h2>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p class="text-muted mb-0 mt-3">Previous Month</p>
+                                                <h2 class="font-weight-normal mb-3">
+                                                    <span>$74,651</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ct-sm-line-chart" style="height: 400px;"></div>
+
+                                </div>
+                                <!-- end card body-->
+                            </div>
+                            <!-- end card -->
+                        </div>
+
+                    </div>
+                    <!-- end row-->
+
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <!-- Messages-->
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-30">Top Performing</h4>
+
+                                    <div class="inbox-widget widgetbox">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-sm table-centered mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>User</th>
+                                                        <th>Leads</th>
+                                                        <th>Deals</th>
+                                                        <th>Tasks</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <h5 class="font-16 mb-1 font-weight-normal">Jeremy Young</h5>
+                                                            <span class="text-muted font-13">Senior Sales Executive</span>
+                                                        </td>
+                                                        <td>187</td>
+                                                        <td>154</td>
+                                                        <td>49</td>
+                                                        <td class="table-action">
+                                                            <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h5 class="font-16 mb-1 font-weight-normal">Thomas Krueger</h5>
+                                                            <span class="text-muted font-13">Senior Sales Executive</span>
+                                                        </td>
+                                                        <td>235</td>
+                                                        <td>127</td>
+                                                        <td>83</td>
+                                                        <td class="table-action">
+                                                            <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h5 class="font-16 mb-1 font-weight-normal">Pete Burdine</h5>
+                                                            <span class="text-muted font-13">Senior Sales Executive</span>
+                                                        </td>
+                                                        <td>365</td>
+                                                        <td>148</td>
+                                                        <td>62</td>
+                                                        <td class="table-action">
+                                                            <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h5 class="font-16 mb-1 font-weight-normal">Mary Nelson</h5>
+                                                            <span class="text-muted font-13">Senior Sales Executive</span>
+                                                        </td>
+                                                        <td>753</td>
+                                                        <td>159</td>
+                                                        <td>258</td>
+                                                        <td class="table-action">
+                                                            <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h5 class="font-16 mb-1 font-weight-normal">Kevin Grove</h5>
+                                                            <span class="text-muted font-13">Senior Sales Executive</span>
+                                                        </td>
+                                                        <td>458</td>
+                                                        <td>126</td>
+                                                        <td>73</td>
+                                                        <td class="table-action">
+                                                            <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div> <!-- end inbox-widget -->
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div>
+                        <!-- end col-->
+
+                        <div class="col-xl-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-4">Recent Activity</h4>
+
+                                    <div class="timeline-alt widgetbox pb-0">
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-info font-weight-bold mb-1 d-block">You sold an item</a>
+                                                <small>Paul Burgess just purchased “Hyper - Admin Dashboard”!</small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">5 minutes ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-primary font-weight-bold mb-1 d-block">Product on the Bootstrap Market</a>
+                                                <small>Dave Gamache added
+                                                    <span class="font-weight-bold">Admin Dashboard</span>
+                                                </small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">30 minutes ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-info font-weight-bold mb-1 d-block">Robert Delaney</a>
+                                                <small>Send you message
+                                                    <span class="font-weight-bold">"Are you there?"</span>
+                                                </small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">2 hours ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-primary font-weight-bold mb-1 d-block">Audrey Tobey</a>
+                                                <small>Uploaded a photo
+                                                    <span class="font-weight-bold">"Error.jpg"</span>
+                                                </small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">14 hours ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-info font-weight-bold mb-1 d-block">Robert Delaney</a>
+                                                <small>Send you message
+                                                    <span class="font-weight-bold">"Are you there?"</span>
+                                                </small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">2 hours ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-info font-weight-bold mb-1 d-block">Robert Delaney</a>
+                                                <small>Send you message
+                                                    <span class="font-weight-bold">"Are you there?"</span>
+                                                </small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">2 hours ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-item">
+                                            <div class="icon">
+                                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="timeline-item-info">
+                                                <a href="#" class="text-info font-weight-bold mb-1 d-block">Robert Delaney</a>
+                                                <small>Send you message
+                                                    <span class="font-weight-bold">"Are you there?"</span>
+                                                </small>
+                                                <p class="mb-0 pb-2">
+                                                    <small class="text-muted">2 hours ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4">
+                            <!-- Todo-->
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-30">Todo</h4>
+
+                                    <div class="todoapp">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 id="todo-message"><span id="todo-remaining"></span> of <span id="todo-total"></span> remaining</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <a href="" class="float-right btn btn-light btn-sm" id="btn-archive">Archive</a>
+                                            </div>
+                                        </div>
+
+                                        <ul class="list-group list-group-flush slimscroll todo-list" style="max-height: 330px" id="todo-list"></ul>
+
+                                        <form name="todo-form" id="todo-form" class="needs-validation" novalidate>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <input type="text" id="todo-input-text" name="todo-input-text" class="form-control" placeholder="Add new todo" required>
+                                                    <div class="invalid-feedback">
+                                                        Please enter your task name
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn-primary btn-md btn-block btn waves-effect waves-light" type="submit" id="todo-btn-submit">Add</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mb-3">Leads Report</h4>
+
+                                    <div class="table-responsive-sm">
+                                        <table class="table table-striped table-centered mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th>User</th>
+                                                    <th>Account No.</th>
+                                                    <th>Balance</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="table-user">
+                                                        <img src="img/member-img/mail-1.jpg" alt="table-user" class="mr-2 rounded-circle">
+                                                        Risa D. Pearson
+                                                    </td>
+                                                    <td>AC336 508 2157</td>
+                                                    <td>July 24, 1950</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-edit"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-user">
+                                                        <img src="img/member-img/mail-2.jpg" alt="table-user" class="mr-2 rounded-circle">
+                                                        Ann C. Thompson
+                                                    </td>
+                                                    <td>SB646 473 2057</td>
+                                                    <td>January 25, 1959</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-edit"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-user">
+                                                        <img src="img/member-img/mail-3.jpg" alt="table-user" class="mr-2 rounded-circle">
+                                                        Paul J. Friend
+                                                    </td>
+                                                    <td>DL281 308 0793</td>
+                                                    <td>September 1, 1939</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-edit"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table-user">
+                                                        <img src="img/member-img/mail-4.jpg" alt="table-user" class="mr-2 rounded-circle">
+                                                        Sean C. Nguyen
+                                                    </td>
+                                                    <td>CA269 714 6825</td>
+                                                    <td>February 5, 1994</td>
+                                                    <td class="table-action">
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-edit"></i></a>
+                                                        <a href="javascript: void(0);" class="action-icon"> <i class="zmdi zmdi-delete"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div> <!-- end table-responsive-->
+
+                                </div> <!-- end card body-->
+                            </div> <!-- end card -->
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Footer Area -->
+                            <footer class="footer-area d-flex align-items-center flex-wrap">
+                                <!-- Copywrite Text -->
+                                <div class="copywrite-text">
+                                    <p>Drobin &copy; 2022 created by <a href="#">Theme-zome</a></p>
+                                </div>
+                                <!-- Footer Nav -->
+                                <ul class="footer-nav d-flex align-items-center">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Purchase</a></li>
+                                </ul>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======================================
+    ********* Page Wrapper Area End ***********
+    ======================================= -->
+
+    <!-- Must needed plugins to the run this Template -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ecaps.bundle.js"></script>
+    <script src="js/default-assets/classy-nav.js"></script>
+
+    <!-- Active JS -->
+    <script src="js/default-assets/active.js"></script>
+
+    <!-- These plugins only need for the run this page -->
+    <script src="js/default-assets/component.chat.js"></script>
+    <script src="js/default-assets/component-todo.js"></script>
+    <script src="js/default-assets/chartist.min.js"></script>
+    <script src="js/default-assets/chartist-plugin-toltip.js"></script>
+    <script src="js/default-assets/chartis-custom.js"></script>
+
+</body>
+
+</html>

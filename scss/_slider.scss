@@ -1,0 +1,271 @@
+/* :: Slider CSS */
+
+.swiper-container .swiper-slide {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: $bg-gray;
+}
+
+#swiper-vertical {
+    height: 200px;
+}
+
+#swiper-3d-cube-effect {
+    max-width: 300px;
+}
+
+#swiper-3d-coverflow-effect .swiper-slide {
+    max-width: 300px;
+}
+
+#swiper-3d-flip-effect,
+#swiper-3d-flip-effect .swiper-slide {
+    max-width: 350px;
+}
+
+.swiper-slide.img {
+    padding: 0;
+    padding: 0;
+}
+
+.carousel-caption > h3 {
+    color: $green-color;
+}
+
+.swiper-pagination-bullet {
+    background: $white-color;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 10px;
+    color: #fff;
+}
+
+.testimonials-area {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-description {
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    padding: 70px 30px 30px 50px;
+    border-radius: 6px;
+    text-align: center;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    opacity: 0.5;
+}
+
+.testimonial_image {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    z-index: 9;
+    margin-left: -40px;
+}
+
+.single-testimonial {
+    padding-top: 45px;
+}
+
+.testimonial_image > img {
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #f2f4f8;
+}
+
+.star-icon > i {
+    color: #ff9800;
+    font-size: 18px;
+}
+
+.star-icon span {
+    font-size: 12px;
+}
+
+.testimonial-description > h5 {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.star-icon {
+    margin-bottom: 10px;
+}
+
+.testimonials-area .section-heading > p {
+    margin: auto;
+}
+
+.testimonials-area {
+    position: relative;
+    z-index: 3;
+    padding: 100px 5%;
+}
+
+.testimonials-area .owl-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #ebebeb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: -40px;
+}
+
+.testimonials-area .owl-dots {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.testimonials-area .owl-dot.active {
+    background-color: $primary-color;
+    border-color: transparent;
+}
+
+.partners-slides.owl-carousel .owl-item > img {
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 1px solid #ebebeb;
+}
+
+.welcome-slides-area .owl-prev,
+.welcome-slides-area .owl-next {
+    color: #fff;
+    width: 100px;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    @include transition-duration(500ms);
+    @include transform(translateY(-50%));
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    i {
+        font-size: 80px;
+        line-height: 150px;
+    }
+
+    &:hover {
+        background-color: $primary-color;
+    }
+}
+
+.welcome-slides-area .owl-next {
+    right: 0;
+    left: auto;
+}
+
+.center {
+    .testimonial-description {
+        background-color: $primary-color;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+
+        h5,
+        p {
+            color: #fff;
+        }
+
+        .star-icon {
+
+            span,
+            i {
+                color: #fff;
+            }
+        }
+    }
+
+    .testimonial_image {
+        height: 90px;
+        width: 90px;
+        top: 0;
+    }
+}
+
+
+.range-slider-area {
+    .demo__buttons {
+        @include display-flex(flex);
+        @include justify-content-between;
+        @include flex-wrap(wrap);
+
+        .button {
+            @include display-flex(flex);
+            @include align-items-center;
+            @include justify-content-center;
+            height: 50px;
+            padding: 0 1.5rem;
+            margin: 0 5px;
+            box-sizing: border-box;
+            border-radius: 3px;
+            @include box-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+            -webkit-transition: background-color 190ms linear;
+            -o-transition: background-color 190ms linear;
+            transition: background-color 190ms linear;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button.small {
+            height: 2.5rem;
+            padding: 0 .5rem;
+            margin: 0;
+        }
+    }
+
+    .irs--big .irs-bar {
+        top: 33px;
+        height: 12px;
+        background-color: #1de9b6;
+        border: 1px solid #1de9b6;
+        background: -webkit-linear-gradient(225deg, #1de9b6 0, #1dc4e9 100%);
+        background: -o-linear-gradient(225deg, #1de9b6 0, #1dc4e9 100%);
+        background: linear-gradient(-135deg, #1de9b6 0, #1dc4e9 100%);
+        -webkit-box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.5);
+        box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.5);
+    }
+
+    .irs--big .irs-handle {
+        border: none;
+        background-color: #cbcfd5;
+        background: -webkit-gradient(linear, left top, left bottom, from(#1de9b6), color-stop(30%, #1de9b6), to(#1de9b6));
+        background: -webkit-linear-gradient(top, #1de9b6 0%, #1de9b6 30%, #1de9b6 100%);
+        background: -o-linear-gradient(top, #1de9b6 0%, #1de9b6 30%, #1de9b6 100%);
+        background: linear-gradient(to bottom, #1de9b6 0%, #1de9b6 30%, #1de9b6 100%);
+    }
+
+    .irs--big .irs-from,
+    .irs--big .irs-to,
+    .irs--big .irs-single {
+        background-color: #1de9b6;
+        background: -webkit-gradient(linear, left top, left bottom, from(#1de9b6), to(#1de9b6));
+        background: -webkit-linear-gradient(top, #1de9b6 0%, #1de9b6 100%);
+        background: -o-linear-gradient(top, #1de9b6 0%, #1de9b6 100%);
+        background: linear-gradient(to bottom, #1de9b6 0%, #1de9b6 100%);
+    }
+
+    .irs--big .irs-min,
+    .irs--big .irs-max {
+        background-color: #1de9b6;
+    }
+
+}

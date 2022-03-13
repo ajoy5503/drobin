@@ -1,0 +1,49 @@
+/* :: Summernote CSS */
+
+.note-editor.note-frame {
+    border: 1px solid #dbdbdb;
+
+    .note-editing-area {
+        font-size: 14px;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .dropdown-menu.dropdown-style {
+        width: 200px;
+        padding: 1rem;
+        border: 1px solid #dbdbdb;
+    }
+
+    .note-check.dropdown-fontname {
+        width: 180px;
+        padding: 1rem;
+        border: 1px solid #dbdbdb;
+    }
+
+    .modal-title {
+        display: none;
+    }
+
+    .form-group label {
+        display: block;
+    }
+}
+
+.note-icon-table::before {
+    content: "\f0ce";
+    font-family: "FontAwesome";
+}
+
+.note-popover .popover-content .note-style .dropdown-style blockquote,
+.panel-heading.note-toolbar .note-style .dropdown-style blockquote,
+.note-popover .popover-content .note-style .dropdown-style pre,
+.panel-heading.note-toolbar .note-style .dropdown-style pre {
+    padding: 0;
+}
+
+.note-popover.popover {
+	display: none !important;
+}

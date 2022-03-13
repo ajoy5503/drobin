@@ -1,0 +1,75 @@
+/* :: Account CSS */
+
+.nice-select {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: 100%;
+
+    &.open {
+        .list {
+            width: 100%;
+            @include box-shadow(0 0 20px rgba(115, 105, 215, 0.15));
+        }
+    }
+
+    .option {
+        text-align: left;
+    }
+}
+
+.acount-profile {
+    .nice-select {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 15px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-right: 15px;
+
+        &.open {
+            .list {
+                width: 100%;
+            }
+        }
+    }
+
+    .form-group {
+        margin-bottom: 0;
+    }
+}
+
+.skill .info .bootstrap-tagsinput .tag {
+    background-color: $blue-2;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nice-select .list {
+    z-index: 9999999 !important;
+}
+
+.social .social-fb .input-group-prepend .input-group-text {
+    background-color: $primary-color;
+}
+
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+    background-color: $background-color;
+}
+
+.about .info,
+.contact .info,
+.edu-experience .info,
+.skill .info,
+.social .info {
+    padding: 0;
+}

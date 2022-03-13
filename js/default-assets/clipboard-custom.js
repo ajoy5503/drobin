@@ -1,0 +1,1 @@
+!function(o){"use strict";var n=new Clipboard(".btn");n.on("success",function(o){console.log(o)}),n.on("error",function(o){console.log(o)})}(jQuery);

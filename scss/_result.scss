@@ -1,0 +1,16 @@
+/* :: Search Result CSS */
+
+.search-result {
+    h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+        color: $primary-color;
+    }
+
+    .search-link {
+        font-size: 12px;
+        color: $heading-color;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+}

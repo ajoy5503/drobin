@@ -1,0 +1,1 @@
+!function(e){"use strict";new SimpleTableCellEditor("myTableId").SetEditableClass("editMe"),e("#myTableId").on("cell:edited",function(e){console.log(`'${e.oldValue}' changed to '${e.newValue}'`)})}(jQuery);

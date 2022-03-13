@@ -1,0 +1,12 @@
+/* :: Issue Area CSS */
+
+.issu-tracker-icon {
+    @include display-flex(flex);
+    @include align-items-center;
+    @include justify-content-between;
+}
+
+.issue-info small {
+    display: block;
+    font-size: 12px;
+}

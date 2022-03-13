@@ -1,0 +1,14 @@
+/* :: Call-to-action CSS */
+
+.call-to-action-text-1 {
+    h4 {
+        span {
+            color: $green-color;
+        }
+    }
+
+    p {
+        color: $dark-text;
+        font-size: 16px;
+    }
+}

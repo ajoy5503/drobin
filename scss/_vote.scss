@@ -1,0 +1,48 @@
+/* :: Vote Item CSS */
+
+.vote-item {
+    padding: 20px 15px;
+    background: $white-color;
+  
+    .vote-actions {
+        float: left;
+        width: 30px;
+        margin-right: 15px;
+        text-align: center;
+
+        a {
+            color: $primary-color;
+            font-weight: 600;
+            display: block;
+        }
+    }
+
+    .vote-title {
+        display: block;
+        color: inherit;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        color: $heading-color;
+    }
+
+    .vote-info,
+    .vote-info a {
+        color: $text-color;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+
+    .vote-info a {
+        margin-right: 10px;
+    }
+
+    .vote-icon {
+        text-align: right;
+        font-size: 38px;
+        display: block;
+        color: $green-color;
+    }
+}

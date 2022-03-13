@@ -1,0 +1,27 @@
+/* :: Product Edit CSS */
+
+.product-thumb {
+    width: 60px;
+}
+
+.progress-w-percent .progress {
+    width: calc(100% - 50px);
+    float: left;
+    margin-top: 8px;
+}
+
+.progress-w-percent .progress-value {
+    width: 40px;
+    float: right;
+    text-align: right;
+    line-height: 20px;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+    -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, .12);
+    background-color: #0acf97;
+    top: auto;
+    bottom: auto;
+}

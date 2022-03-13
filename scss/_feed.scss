@@ -1,0 +1,75 @@
+/* :: Feed Area CSS */
+
+.list-feed {
+    .list-feed-item {
+        a {
+            color: $purple-color;
+        }
+
+        position: relative;
+        padding-bottom: 1.25rem;
+        padding-left: 1.75rem;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: .31252rem;
+            background-color: #fff;
+            display: inline-block;
+            border: 2px solid $primary;
+            z-index: 3;
+            width: .5rem;
+            height: .5rem;
+            border-radius: 50%;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: .31252rem;
+            left: .1875rem;
+            bottom: -.43752rem;
+            width: 0;
+            border-left: 1px solid $primary;
+            border-right: 1px solid $primary;
+            z-index: 2;
+
+        }
+    }
+}
+
+.list-feed-item:last-child::after {
+    bottom: 55px;
+}
+
+.list-feed-solid .list-feed-item::before {
+    content: '';
+    border-width: .25rem;
+    width: 0;
+    height: 0;
+}
+
+.list-feed-square .list-feed-item::before {
+    content: '';
+    border-radius: 0;
+}
+
+.list-feed-rhombus .list-feed-item::before {
+    content: '';
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 0;
+}
+
+.border-top-green .list-feed-item::before {
+    border-color: $green-color;
+}
+
+.border-top-green .list-feed-item::after {
+    border-color: $green-color;
+}
+
+.swal2-container {
+    z-index: 9999999;
+}

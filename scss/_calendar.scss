@@ -1,0 +1,114 @@
+/* :: Calendar CSS */
+
+.fc-toolbar {
+    margin: 15px 0 5px 0;
+}
+
+.external-event {
+    cursor: move;
+    margin: 10px 0;
+    padding: 8px 10px;
+    color: #fff;
+}
+
+.fc-toolbar .fc-center,
+.fc-toolbar .fc-left,
+.fc-toolbar .fc-right {
+    @media #{$breakpoint-xs} {
+        display: block;
+        clear: both;
+        margin: 10px 0;
+    }
+}
+
+.fc-button {
+    background: #edf1f5;
+    border: none;
+    color: $heading-color;
+    text-shadow: none;
+    text-transform: capitalize;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 3px;
+    margin: 0 3px;
+    padding: 6px 12px;
+    height: auto;
+}
+
+.fc-state-active,
+.fc-state-disabled,
+.fc-state-down {
+    background-color: #727cf5;
+    color: #fff;
+    text-shadow: none;
+}
+
+.fc th.fc-widget-header {
+    background: #edf1f5;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-row,
+.fc-unthemed tbody,
+.fc-unthemed td,
+.fc-unthemed th,
+.fc-unthemed thead {
+    border-color: #f1f3fa;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+    float: right;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f1f3fa;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 12px;
+    color: $heading-color;
+}
+
+.fc-event {
+    border-radius: 2px;
+    border: none;
+    cursor: move;
+    font-size: .8125rem;
+    margin: 5px 7px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.fc-basic-view .fc-content {
+    color: #fff;
+}
+
+.fc .fc-row .fc-content-skeleton table,
+.fc .fc-row .fc-content-skeleton td,
+.fc .fc-row .fc-helper-skeleton td {
+    background: 0 0;
+    border-color: transparent;
+}
+
+.fc-center {
+    h2 {
+        @media #{$breakpoint-xs} {
+            margin-top: 20px;
+        }
+    }
+}
+
+div#calendar {
+    @media #{$breakpoint-xs} {
+        margin-top: 30px;
+    }
+    
+     @media #{$breakpoint-md} {
+        margin-top: 30px;
+    }
+}

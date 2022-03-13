@@ -1,0 +1,86 @@
+/* :: Sidebar Light CSS */
+
+.ecaps-page-wrapper.sidebar-light {
+    .ecaps-sidemenu-area {
+        background: -webkit-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: -o-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: linear-gradient(135deg, #8f75da 0, #727cf5 60%);
+        @include box-shadow(0 0 35px 0 rgba(154, 161, 171, .15));
+
+        .slimScrollDiv {
+            position: relative;
+            top: 60px;
+            padding-bottom: 70px !important;
+            width: 100% !important;
+            @include transition-duration(500ms);
+        }
+    }
+
+    .ecaps-logo a {
+        background: -webkit-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: -o-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: linear-gradient(135deg, #8f75da 0, #727cf5 60%);
+        @include box-shadow(0 0 35px 0 rgba(154, 161, 171, .15));
+    }
+
+    .ecaps-sidemenu-area .slimScrollDiv {
+        background: -webkit-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: -o-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: linear-gradient(135deg, #8f75da 0, #727cf5 60%);
+        @include box-shadow(0 0 35px 0 rgba(154, 161, 171, .15));
+    }
+
+    .sidebar-menu .treeview-menu > li.active > a {
+        color: $white-color;
+    }
+
+    .user-content h6 {
+        color: #fff;
+    }
+
+    .sidebar-menu > li > a:hover,
+    .sidebar-menu > li.active > a,
+    .sidebar-menu > li.menu-open > a {
+        color: $white-color;
+        background: -webkit-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: -o-linear-gradient(315deg, #8f75da 0, #727cf5 60%);
+        background: linear-gradient(135deg, #8f75da 0, #727cf5 60%);
+        @include box-shadow(0 0 35px 0 rgba(154, 161, 171, .15));
+    }
+
+    .sidebar-menu li a {
+        color: #cedce4;
+    }
+
+    .footer-area {
+        border-top: 1px solid #e3e3e3;
+        background-color: transparent;
+    }
+
+    .sidebar-menu li .treeview-menu li a:hover {
+        color: $white-color;
+    }
+
+    .side-menu-area {
+        margin-top: 30px;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .top-header-area {
+            background-color: $white-color;
+        }
+    }
+
+    .sidebar-menu li .treeview-menu li a::after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: #fff;
+        content: '';
+        margin-top: -2px;
+    }
+
+}
